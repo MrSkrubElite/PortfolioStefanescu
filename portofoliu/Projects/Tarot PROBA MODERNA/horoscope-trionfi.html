@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Projects/Tarot PROBA MODERNA/horoscope-trionfi.css" />
+
+    <title>TRIONFI | Horoscope</title>
+  </head>
+  <body>
+    <nav id="navbar" class="is_stuck navigation-stick">
+      <h1 id="h1-navbar"><a href="/Projects/Tarot PROBA MODERNA/index-trionfi.html">TRIONFI</a></h1>
+    </nav>
+
+    <main>
+      <!-- bg -->
+      <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <!-- titlu -->
+
+      <div class="titlu">
+        <h1><span id="h">H</span> <span id="o">O</span> <span id="r">R</span> <span id="o2">O</span> <span id="s">S</span> <span id="c">C</span> <span id="o3">O</span> <span id="p">P</span> <span id="e">E</span></h1>
+     </div>
+
+
+      <form class="form">
+        <label for="zodiac-sign">Select your zodiac sign:</label>
+        <select id="zodiac-sign" name="zodiac-sign">
+          <option value="aries" selected>Aries</option>
+          <option value="taurus">Taurus</option>
+          <option value="gemini">Gemini</option>
+          <option value="cancer">Cancer</option>
+          <option value="leo">Leo</option>
+          <option value="virgo">Virgo</option>
+          <option value="libra">Libra</option>
+          <option value="scorpio">Scorpio</option>
+          <option value="sagittarius">Sagittarius</option>
+          <option value="capricorn">Capricorn</option>
+          <option value="aquarius">Aquarius</option>
+          <option value="pisces">Pisces</option>
+        </select>
+
+        <label for="date">Select date:</label>
+        <select name="date" id="date">
+          <option value="yesterday">Yesterday</option>
+          <option value="today" selected>Today</option>
+          <option value="tomorrow">Tomorrow</option>
+        </select>
+        <input id="submit-btn" type="submit" value="Submit" />
+      </form>
+
+      <div id="sisi">
+        <div id="pre-result">
+            <h3>Color</h3>
+            <h3>Compatibility</h3>
+            <h3>Current Date</h3>
+            <h3>Date Range</h3>
+            <h3>Description</h3>
+            <h3>Lucky Number</h3>
+            <h3>Lucky Time</h3>
+            <h3>Mood</h3>
+        </div>
+        <div id="result">
+          <div id="color"></div>
+          <div id="compatibility"></div>
+          <div id="current_date"></div>
+          <div id="date_range"></div>
+          <div id="description"></div>
+          <div id="lucky_number"></div>
+          <div id="lucky_time"></div>
+          <div id="mood"></div>
+        </div>
+
+      </div>
+    </main>
+    <script src="/Projects/Tarot PROBA MODERNA/horoscope-trionfi.js"></script>
+  </body>
+</html>
